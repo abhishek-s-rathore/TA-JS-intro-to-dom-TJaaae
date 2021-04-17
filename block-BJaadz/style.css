@@ -37,7 +37,7 @@ hr.image {
   grid-gap: 1em;
 }
 
-div.box {
+div .box {
   padding: 1em;
   background: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05);
