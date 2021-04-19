@@ -126,7 +126,7 @@ books.forEach((book) => {
   let h2 = document.createElement("h2");
   h2.innerText = book.title;
   let author = document.createElement("cite");
-  author.innerText = book.author;
+  author.innerText = `Author: ${book.author}`;
   let btn = document.createElement("a");
   btn.innerText = "Buy Now";
   btn.classList.add("btn", "btn-primary");
