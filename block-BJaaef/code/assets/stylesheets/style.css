@@ -1,0 +1,183 @@
+/*---[Resets Import]---*/
+
+@import url(../stylesheets/resets.css);
+
+/*---[Custom Styles]---*/
+
+/*Variables*/
+:root {
+  --primary: #4075d5;
+  --secondary: #f4f5f9;
+  --tertiory: #e7edfd;
+  --darktext: #000000;
+  --lighttext: rgb(130, 130, 130);
+  --xyz: rgb(57, 148, 98);
+}
+
+/*Global*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  background-color: var(--secondary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.padding {
+  padding: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Flex*/
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-20 {
+  flex: 0 1 20%;
+}
+
+.flex-25 {
+  flex: 0 1 25%;
+}
+
+.flex-30 {
+  flex: 0 1 30%;
+}
+
+.flex-32 {
+  flex: 0 1 32%;
+}
+
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+.flex-47 {
+  flex: 0 1 47%;
+}
+
+.flex-50 {
+  flex: 0 1 50%;
+}
+
+.flex-60 {
+  flex: 0 1 60%;
+}
+
+/*Buttons*/
+
+.btn {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem auto;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.btn-primary {
+  color: var(--primary);
+  background-color: var(--tertiory);
+  text-align: center;
+}
+
+/*Images*/
+
+.font-0 {
+  font-size: 0;
+}
+
+.full-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Position*/
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.fix {
+  position: fixed;
+}
+
+/*Headings*/
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0.5rem auto;
+}
+
+/* Header */
+.header {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+/* Main */
+
+.card {
+  background-color: #ffffff;
+  height: 20rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+  text-align: center;
+}
+/* 
+.outerDiv{
+
+} */
